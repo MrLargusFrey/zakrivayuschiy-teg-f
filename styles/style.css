@@ -157,22 +157,19 @@
 }
 
 .card__like-button-place {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
   margin-inline-end: 25px;
   margin-block-end: 25px;
   justify-self: right;
 }
 
-.card__like-button {
+.like-button {
   border: none;
   padding: 0;
   background-color: transparent;
-}
-
-.like-button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 7px;
 }
 
 .like-icon-wrapper {
@@ -345,22 +342,22 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon .is-liked .core{
+.like-icon.is-liked .core {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear;
 }
 
-.like-icon .is-liked .main-body{
+.like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon .is-liked .contour {
+.like-icon.is-liked .contour {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear 0.06s;
 }
 
-.like-icon .is-liked .heart{
+.like-icon.is-liked .heart {
   animation: ScaleHeart 0.3s ease-in 0.1s;
   transform-origin: center;
 }
