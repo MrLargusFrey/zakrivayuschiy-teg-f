@@ -1,9 +1,9 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --inter: Inter-Variable;
+  --main-font: Inter-Variable;
   --press: 'PressStart2P';
-  --intnormal: 410;
-  --intbold: 715;
+  --main-font-normal: 410;
+  --main-font-bold: 715;
   --difcolor: #fff;
   --heartcolor: black;
   --animation-fill-color: #ff0000;
