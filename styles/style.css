@@ -44,19 +44,19 @@
 }
 
 .text__press {
-  font-family: var(--press), sans-serif;
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
 }
 
 .cover__title {
-  font-family: var(--press), sans-serif;
+  font-family: var(--accent-font), sans-serif;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 100%;
   text-transform: uppercase;
 }
 
 .title__text {
-  font-family: var(--press), sans-serif;
+  font-family: var(--accent-font), sans-serif;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   line-height: 100%;
   text-transform: uppercase;
@@ -177,6 +177,7 @@
   position: relative;
   cursor: pointer;
   outline: 2px solid transparent;
+  outline-offset: -1px;
   transition: outline 0.3s ease;
 }
 
@@ -218,7 +219,7 @@
 
 .button-outline {
   outline: 2px solid #000;
-  outline-offset: -1px;
+  outline-offset: -2px;
   border: none;
 }
 
@@ -250,7 +251,7 @@
   width: 306px;
   height: 84px;
   margin: 0 0 100px 0;
-  padding: 0;
+  padding: 17px 20px;
   gap: 8px;
   cursor: pointer;
 }
